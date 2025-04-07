@@ -3,7 +3,7 @@ name: Log Time Job
 on:
   schedule:
     - cron: "*/30 * * * *"
-    workflow_dispatch:
+  workflow_dispatch:
 
   permisisons:
     contents write:
