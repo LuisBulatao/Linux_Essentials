@@ -5,8 +5,8 @@ on:
     - cron: "*/30 * * * *"
   workflow_dispatch:
 
-  permisisons:
-    contents write:
+  permissions:
+    contents: write
 
 jobs:
   log_time:
