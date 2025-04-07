@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "$(date) - Logged by GitHub Actions" >> log.txt
+echo "Current Date and Time: $(date)" >> log.txt
 
 
